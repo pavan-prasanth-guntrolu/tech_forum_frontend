@@ -21,13 +21,153 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      /* nav */
+      .nav-section {
+        margin-top: 20px;
+      }
+
+      .nav-item {
+        border: solid 1px;
+        border-radius: 25px;
+        overflow: hidden;
+      }
+      .nav-item:hover {
+        border: none;
+      }
+      .nav-link {
+        color: rgb(42, 41, 41);
+        width: 130px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        overflow: hidden;
+        color: #8044e2;
+        transition: 1s all ease;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 1.5px;
+      }
+      .nav-link:hover {
+        background-color: #8044e2;
+        color: white;
+      }
+      .navbar-brand {
+        color: rgb(42, 41, 41);
+        transition: 1s all ease;
+      }
+      .navbar-brand:hover {
+        color: #8044e2;
+      }
+
+      .navbar-brand {
+        font-size: 30px !important;
+        font-weight: bold;
+        letter-spacing: 5px !important;
+      }
+
+      /* banner */
+
+      .banner-section {
+        background-image: url("https://res.cloudinary.com/dh6c27r32/image/upload/v1693676250/ai-cloud-with-robot-face_tsidlx.jpg");
+        background-size: cover;
+        height: 100vh;
+      }
+
+      /* footer */
+
+      .footer {
+        width: 100vw;
+        height: 400px;
+        background-color: #eee;
+      }
+      .foot-list-items ul {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        transition: 0.3s ease;
+      }
+      .foot-list-items ul:hover {
+        font-size: 20px;
+        color: #8044e2;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+      }
+      .foot-list-items {
+        margin-left: -30px;
+      }
+      .news-letter {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+      }
+      .news-letter p {
+        font-size: 20px;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+
+        transition: 0.3s ease;
+      }
+      .news-letter p:hover {
+        color: #8044e2;
+      }
+      .news-letter button {
+        border: none;
+        border-radius: 25px;
+        background-color: #8044e2;
+        color: rgb(42, 41, 41);
+        width: 110px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        overflow: hidden;
+        height: 40px;
+        margin-left: 20px;
+        transition: 0.3s ease;
+      }
+      .news-letter input {
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+      }
+      .news-letter button:hover {
+        background-color: rgba(130, 166, 224, 255);
+        color: white;
+      }
+      hr {
+        margin-top: 80px;
+      }
+      .rights {
+        font-family: "Rubik", sans-serif;
+        color: #aaa;
+      }
+      .rights ul {
+        list-style: none;
+        margin-left: 800px;
+      }
+      .rights ul li {
+        margin-right: 40px;
+      }
+    </style>
   </head>
   <body>
-    <div class="root">
+    <div class="root mr-0">
       <div class="nav-section fixed-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">LOGO</a>
+            <a class="navbar-brand" href="#">TechXel</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -74,6 +214,133 @@
         </nav>
       </div>
       <div class="banner-section"></div>
+      <div class="Events-section shadow mb-5 mt-5 container-fluid p-5">
+        <h1 class="event-header">Events</h1>
+        <h3>Fueling Curiosity, Fostering Innovation</h3>
+
+        <div class="row m-5">
+          <div class="branch one mr-5 col-sm">
+            <div class="card-body">
+              <h1 class="card-title">CSE</h1>
+              <p class="card-sub-title">Computer Science and Engineering</p>
+              <p class="card-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                eius velit sed temporibus molestias eaque hic est facilis quas
+                itaque, minima vel cum omnis veritatis eum saepe soluta tempora
+                maiores.
+              </p>
+              <button class="card-btn">Explore</button>
+            </div>
+          </div>
+          <div class="branch two shadow mr-5 col-sm">
+            <div class="card-body">
+              <h1 class="card-title">CSE</h1>
+              <p class="card-sub-title">Computer Science and Engineering</p>
+              <p class="card-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                eius velit sed temporibus molestias eaque hic est facilis quas
+                itaque, minima vel cum omnis veritatis eum saepe soluta tempora
+                maiores.
+              </p>
+              <button class="card-btn">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="row m-5">
+          <div class="branch three shadow mr-5 col-sm">
+            <div class="card-body">
+              <h1 class="card-title">CSE</h1>
+              <p class="card-sub-title">Computer Science and Engineering</p>
+              <p class="card-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                eius velit sed temporibus molestias eaque hic est facilis quas
+                itaque, minima vel cum omnis veritatis eum saepe soluta tempora
+                maiores.
+              </p>
+              <button class="card-btn">Explore</button>
+            </div>
+          </div>
+          <div class="branch four shadow mr-5 col-sm">
+            <div class="card-body">
+              <h1 class="card-title">CSE</h1>
+              <p class="card-sub-title">Computer Science and Engineering</p>
+              <p class="card-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                eius velit sed temporibus molestias eaque hic est facilis quas
+                itaque, minima vel cum omnis veritatis eum saepe soluta tempora
+                maiores.
+              </p>
+              <button class="card-btn">Explore</button>
+            </div>
+          </div>
+          <div class="branch five shadow col-sm">
+            <div class="card-body">
+              <h1 class="card-title">CSE</h1>
+              <p class="card-sub-title">Computer Science and Engineering</p>
+              <p class="card-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                eius velit sed temporibus molestias eaque hic est facilis quas
+                itaque, minima vel cum omnis veritatis eum saepe soluta tempora
+                maiores.
+              </p>
+              <button class="card-btn">Explore</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer p-5">
+        <div class="d-flex container justify-content-between">
+          <div>
+            <h1 class="mb-5">TechXel</h1>
+            <div class="d-flex foot-list-items">
+              <ul>
+                Overview
+              </ul>
+              <ul>
+                Features
+              </ul>
+              <ul>
+                Pricing
+              </ul>
+
+              <ul>
+                Help
+              </ul>
+              <ul>
+                Privacy
+              </ul>
+            </div>
+          </div>
+          <div class="news-letter">
+            <p>Join our newsletter</p>
+            <div>
+              <input class="p-3" type="email" placeholder="Enter Your Email" />
+              <button type="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="rights d-flex">
+          <div class="pl-3">
+            <p>&copy; 2023 TechXel. All rights reserved.</p>
+          </div>
+          <div>
+            <ul class="d-flex">
+              <li>Terms</li>
+              <li>Privacy</li>
+              <li>Cookies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-sm">One of three columns</div>
+    <div class="col-sm">One of three columns</div>
+    <div class="col-sm">One of three columns</div>
+  </div>
+</div> -->
